@@ -82,3 +82,8 @@ vim.keymap.set({'n','i','v'}, '<leader>g', '<ESC>:Gitsigns blame_line<CR>',{nore
 
 -- NivmTree
 vim.keymap.set({'n','i','v'}, '<leader>e', '<ESC>:NvimTreeToggle<CR>',{noremap = true, silent = true})
+
+-- Folder
+vim.keymap.set("n", "<S-p>", require("ufo").openAllFolds)
+vim.keymap.set("n", "<S-o>", require("ufo").closeAllFolds)
+vim.keymap.set("n", "<S-i>", require("ufo").openFoldsExceptKinds)
