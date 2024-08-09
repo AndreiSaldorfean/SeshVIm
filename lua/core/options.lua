@@ -1,7 +1,7 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
 -- Terminal Emulator
-vim.cmd [[let &shell = '"C:\Program Files\Git\bin\bash.exe']]
+vim.cmd [[let &shell = 'C:\Users\nxg06738\AppData\Local\Programs\Git\bin\bash.exe']]
 vim.cmd [[let &shellcmdflag = '-s']]
 
 -- appearence
